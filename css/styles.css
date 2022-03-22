@@ -1,5 +1,10 @@
 @import url(/imports/app.css);
 
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
 .header p{
     background: #1CD1B0;
     padding: .5rem .5rem;
@@ -98,4 +103,7 @@
     background: #00669F;
     padding: 1rem 1rem;
     color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
